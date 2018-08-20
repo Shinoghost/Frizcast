@@ -1,0 +1,120 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url(http://wall2born.com/data/out/751/image-48268413-kylo-ren-1080p-wallpaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100%;
+}
+
+header{
+    height: 90px;
+    background-color: #1a1a1a;
+    justify-content: space-between;
+    display: flex;
+    opacity: 0.8;
+}
+
+header span{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-size: 25px;
+    font-style: italic;
+    padding-left: 4%;
+    flex-wrap: wrap;
+}
+
+header .logo-color{
+    padding-left: 6px;
+    color: red;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-right: 4%;
+}
+
+header li{
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    transition-delay: 0.1s;
+}
+
+header a:hover{
+    color: red;
+}
+
+header a:active{
+    color: red;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h1{
+    color: white;
+    font-family: sans-serif;
+    padding: 10px;
+    font-size: 40px;
+}
+
+section h2{
+    color: white;
+    font-family: sans-serif;
+    padding: 10px;
+    font-size: 40px;
+}
+
+section a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 20px;
+}
+
+section a:hover{
+    background-color: dimgray;
+    border-color: dimgray;
+}
+
+@media screen and (max-width:720px){
+    
+    
+    header{
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    body{
+        
+    }
+}
